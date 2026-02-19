@@ -1,0 +1,109 @@
+.home .part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 1.875rem;
+}
+
+.home .part-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1.875rem;
+}
+
+.home .part-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1.875rem;
+}
+
+
+#food-image{
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#text{
+    font-size: 1rem;
+    max-width: 60ch;
+    line-height: 1.7;
+}
+
+.order-btn{
+    padding: 12px 18px;
+    border-radius: 1.875rem;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ffb703;
+    color: black;
+
+    transition: 
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+.order-btn:hover{
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    background: #ffc933;
+}
+
+.order-btn:active{
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+
+
+@media (max-width: 600px) {
+    .home .part-1{
+        flex-direction: column;
+        padding: 5rem 1rem;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .home .part-1 #burger-img-1{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #text{
+        font-size: 1rem;
+        max-width: 60ch;
+        line-height: 1.6rem;
+    }
+
+    .home .part-2{
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .home .part-2 #pizza-img-1{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .home .part-3{
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .home .part-3 #dish-img-1{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

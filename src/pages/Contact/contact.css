@@ -1,0 +1,79 @@
+.main .contact{
+    flex-direction: column;
+}
+
+.main .contact h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.main .contact p{
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.main .contact ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.main .contact ul li{
+    cursor: pointer;
+}
+
+.main .contact ul li img{
+    width: 3rem;
+}
+
+#instagram {
+    width: 3rem;
+}
+
+.main .contact ul li.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    position: relative;
+}
+
+.main .contact ul li.contact-item span{
+    font-size: 0.9rem;
+    opacity: 0;
+    transform: translateX(-8px);
+    transition: all 0.25s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.main .contact ul li.contact-item:hover span{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.main .contact ul li.contact-item img{
+    transition: transform 0.2s ease;
+}
+
+.main .contact ul li.contact-item:hover img{
+    transform: scale(1.1);
+}
+
+@media (max-width: 760px){
+    .main .contact ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .contact ul li.contact-item:hover span{
+        opacity: 0;
+    }
+
+    .main .contact ul li.contact-item:hover img{
+        transform: scale(1);
+    }
+}
