@@ -25,4 +25,4 @@ It features a responsive design that works smoothly on both desktop and mobile d
 [Hamidrezaesh](https://github.com/hamidrezaesh)
 
 ## ✔️ Demo: 
-[fastfood1-demo](http://hamidrezaesh.github.io/fastfood1-demo)
+[fastfood1-demo](http://hamidrezaesh.github.io/fastfood1-demo) (Currently Unavailable)
