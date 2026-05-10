@@ -24,5 +24,5 @@ It features a responsive design that works smoothly on both desktop and mobile d
 ## 👤 Author: 
 [Hamidrezaesh](https://github.com/hamidrezaesh)
 
-## ✔️ Demo: 
-[fastfood1-demo](http://hamidrezaesh.github.io/fastfood1-demo) (Currently Unavailable)
+## License
+[MIT License](https://github.com/hamidrezaesh/fastfood1-demo/blob/main/LICENSE)
