@@ -20,9 +20,7 @@ It features a responsive design that works smoothly on both desktop and mobile d
 - CSS
 - [Heroicons](https://github.com/tailwindlabs/heroicons) for icons
 
-
-## 👤 Author: 
-[Hamidrezaesh](https://github.com/hamidrezaesh)
-
 ## License
-[MIT License](https://github.com/hamidrezaesh/fastfood1-demo/blob/main/LICENSE)
+This project is licensed under the MIT License. See the [License](./LICENSE) File for details.
+
+Made by [Hamidreza](https://github.com/hamidrezaesh)
